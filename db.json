@@ -1,0 +1,196 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "src": "./imagenes/products/bebibdarefrescantetangerina.jpg",
+      "name": "Bebida Tangerina",
+      "portion": "500ml",
+      "price": 15.0
+    },
+    {
+      "id": 2,
+      "src": "./imagenes/products/bebidadegengibreefrutas.jpg",
+      "name": "Bebida Kiwi",
+      "portion": "500ml",
+      "price": 20.0
+    },
+    {
+      "id": 3,
+      "src": "./imagenes/products/minicarolinadecanela.webp",
+      "name": "Mini Carolina",
+      "portion": "10 unidades",
+      "price": 12.0
+    },
+    {
+      "id": 4,
+      "src": "./imagenes/products/tortadenozes.webp",
+      "name": "Torta de nozes",
+      "portion": "1 fatia",
+      "price": 15.0
+    },
+    {
+      "id": 5,
+      "src": "./imagenes/products/legumesassado.jpg",
+      "name": "Legumes Assados",
+      "portion": "Para 1 pessoa",
+      "price": 30.0
+    },
+    {
+      "id": 6,
+      "src": "./imagenes/products/abobrinharechada.jpg",
+      "name": "Aboborinha Recheada",
+      "portion": "Para 1 pessoa",
+      "price": 20.0
+    },
+    {
+      "id": 7,
+      "src": "./imagenes/products/batatarecheada.webp",
+      "name": "Batata Recheada",
+      "portion": "Para 2 pessoas",
+      "price": 45.0
+    },
+    {
+      "id": 8,
+      "src": "./imagenes/products/churrascovegan.webp",
+      "name": "Churrasquinho",
+      "portion": "Para 2 pessoas",
+      "price": 50.0
+    },
+    {
+      "id": 9,
+      "src": "./imagenes/products/sopadelegumes.png",
+      "name": "Sopa de Legumes",
+      "portion": "Para 1 pessoa",
+      "price": 45.0
+    },
+    {
+      "id": 10,
+      "src": "./imagenes/products/graodebicopepinoebolinhodelentilha.jpg",
+      "name": "Grão de bico",
+      "portion": "Para 1 pessoa",
+      "price": 25.0
+    },
+    {
+      "id": 11,
+      "src": "./imagenes/products/strogonoffvegano.webp",
+      "name": "Strogonoff Vegano",
+      "portion": "Para 1 pessoa",
+      "price": 35.0
+    },
+    {
+      "id": 12,
+      "src": "./imagenes/products/biscoitodeaveia.jpg",
+      "name": "Biscoito de Aveia",
+      "portion": "6 unidades",
+      "price": 20.0
+    }
+  ],
+  "compras": [
+    {
+      "usuario": "Ernesto Gamez",
+      "cpf": "066.481.017-92",
+      "address": "Coliseo 18. Baracoa,Cuba",
+      "cart": [
+        {
+          "id": 2,
+          "src": "./imagenes/products/bebidadegengibreefrutas.jpg",
+          "name": "Bebida Tangerina",
+          "portion": "500ml",
+          "price": 20,
+          "quantity": "4"
+        },
+        {
+          "id": 3,
+          "src": "./imagenes/products/minicarolinadecanela.webp",
+          "name": "Mini Carolina",
+          "portion": "10 unidades",
+          "price": 12,
+          "quantity": "4"
+        },
+        {
+          "id": 4,
+          "src": "./imagenes/products/tortadenozes.webp",
+          "name": "Torta de nozes",
+          "portion": "1 fatia",
+          "price": 15,
+          "quantity": "3"
+        },
+        {
+          "id": 7,
+          "src": "./imagenes/products/batatarecheada.webp",
+          "name": "Batata Recheada",
+          "portion": "Para 2 pessoas",
+          "price": 45,
+          "quantity": 1
+        }
+      ],
+      "totalCart": 218,
+      "id": 1
+    },
+    {
+      "usuario": "Gustavo resende",
+      "cpf": "069.488.017-97",
+      "address": "Rua General Cannabaro 202. Maracaña. Rio de Janeiro",
+      "cart": [
+        {
+          "id": 2,
+          "src": "./imagenes/products/bebidadegengibreefrutas.jpg",
+          "name": "Bebida Tangerina",
+          "portion": "500ml",
+          "price": 20,
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "src": "./imagenes/products/minicarolinadecanela.webp",
+          "name": "Mini Carolina",
+          "portion": "10 unidades",
+          "price": 12,
+          "quantity": 1
+        },
+        {
+          "id": 7,
+          "src": "./imagenes/products/batatarecheada.webp",
+          "name": "Batata Recheada",
+          "portion": "Para 2 pessoas",
+          "price": 45,
+          "quantity": 1
+        }
+      ],
+      "totalCart": 77,
+      "id": 2
+    },
+    {
+      "usuario": "Pedro Moura",
+      "cpf": "069.487.018-97",
+      "address": "Rua General Cannabaro 210. Maracaña. Rio de Janeiro",
+      "cart": [
+        {
+          "id": 2,
+          "src": "./imagenes/products/bebidadegengibreefrutas.jpg",
+          "name": "Bebida refrescante",
+          "portion": "500ml",
+          "price": 20,
+          "quantity": "3"
+        },
+        {
+          "id": 1,
+          "src": "./imagenes/products/bebibdarefrescantetangerina.jpg",
+          "name": "Bebida refrescante",
+          "portion": "500ml",
+          "price": 15,
+          "quantity": "3"
+        }
+      ],
+      "totalCart": 105,
+      "id": 3
+    }
+  ],
+  "admin": [
+    {
+      "user": "Juanpi",
+      "email": "juan.urgelles92@gmail.com",
+      "password": "Juanpi22"
+    }
+  ]
+}
